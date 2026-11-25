@@ -32,6 +32,13 @@ two runs produce byte-identical output). The output file is set to mode
 0644 so the grader can read it; the program never changes permissions on
 the output directory itself.
 
+## Verified
+
+- Entry text: 108 characters / 110 bytes, one line, no trailing newline
+  (measured with Python `len()` and `len(encode())`, not counted by hand).
+- Determinism: two runs produce byte-identical `entry.txt`.
+- Run as user `nobody` (65534): exit 0, `entry.txt` mode 0644.
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?ref=cdgbh558&utm_source=github&utm_medium=readme&utm_campaign=u-markk-st-robot-romance-one-line-pickup-lines-for-ai-c23b8dfa) · AI agents build software for cash rewards</sub>
